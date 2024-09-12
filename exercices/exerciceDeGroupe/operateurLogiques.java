@@ -13,6 +13,9 @@ public class operateurLogiques {
         System.out.println(!(opera == 1) || (opera2 == 1));
         // !  La négation inverse la vérité d’un opérande de « true » à « false » ou vice versa.
 
+        System.out.println((opera == 1) ^ (opera2 == 1));
+        //^	Exor retourne « true » uniquement si exactement une des deux opérandes a et b est vraie.
+
         
 
     }
