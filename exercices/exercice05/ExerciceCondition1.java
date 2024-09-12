@@ -1,4 +1,3 @@
-package exercices.exercice05;
 import java.util.Scanner;
 public class ExerciceCondition1 {
 
