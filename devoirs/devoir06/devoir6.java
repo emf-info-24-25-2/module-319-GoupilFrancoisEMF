@@ -8,6 +8,7 @@ public class devoir6{
 
     public static final int VALEUR_RECHERCHEE=7;
 
+    //RIF: attention, vous donnez les mêmes noms aux paramètres de la fonction qu'aux constantes, c'est à éviter absolument!
     public static int[] genereTableau(int VALEUR_MIN, int VALEUR_MAX, int TAILLE_TABLEAU) {
         int[] tableau = new int[TAILLE_TABLEAU];
 
@@ -17,6 +18,8 @@ public class devoir6{
         }
                 return tableau;
     }
+
+    //RIF: et les autres méthodes?
     public static void main(String[] args) {
             System.out.println(genereTableau(VALEUR_MIN, VALEUR_MAX, TAILLE_TABLEAU));
         
