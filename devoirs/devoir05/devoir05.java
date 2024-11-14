@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class devoir05 {
     public static void main(String[] args) {
-        //RIF: ici vous faites un nombre entre 1 et 39
-        int nombreATrouver = (int) (Math.random() * (39 - 1 + 1)) + 1;
+        int nombreATrouver = (int) (Math.random() * (100 - 1 + 1)) + 1;
         int tentative = 0;
         int nmbrEssai = 0;
         Scanner scanner = new Scanner(System.in);
@@ -14,9 +13,6 @@ public class devoir05 {
         while (!trouve) {
             System.out.print("Entrez votre nombre : ");
             tentative = scanner.nextInt();
-
-            //RIF: la ligne suivante n'est pas nécessaire
-            scanner.nextLine();
 
             if (tentative < nombreATrouver) {
                 System.out.println("Trop petit");
