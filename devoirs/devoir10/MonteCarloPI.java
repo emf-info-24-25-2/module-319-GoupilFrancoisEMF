@@ -1,5 +1,5 @@
 public class MonteCarloPI {
-    static final double NBRE_ESSAIS = 1000000;
+    static final double NBRE_ESSAIS = 1000000000;
     public static void main(String[] args) {
         int pointsDansZoneVerte = 0;
 
